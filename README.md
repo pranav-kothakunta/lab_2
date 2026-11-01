@@ -52,6 +52,9 @@ npm run dev
 ### Delete Book
 ![DELETE](screenshots/delete-book.png)
 
+### Database
+![SQLite database](screenshots/database.png)
+
 ## Problems Faced
 - Handled SQLite async/await promise resolving by utilizing the `sqlite` wrapper around `sqlite3`.
 - Ensured proper parameter binding in SQL queries to prevent SQL injection and properly handle missing records (404 status).
